@@ -1,0 +1,29 @@
+name: "\U0001F534 Framework Attack"
+description: "Challenge a specific part of the CTG framework"
+labels: ["attack", "review-needed"]
+body:
+  - type: input
+    id: section
+    attributes:
+      label: "Target Section"
+      description: "Which section are you attacking? (e.g., §3.3 DDI)"
+      placeholder: "§X.X Title"
+    validations:
+      required: true
+  - type: textarea
+    id: argument
+    attributes:
+      label: "Attack Argument"
+      description: "Describe the logical flaw, counterexample, or edge case"
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: "Breaking Example"
+      description: "Provide a specific scenario where the framework fails"
+  - type: textarea
+    id: fix
+    attributes:
+      label: "Proposed Fix (Optional)"
+      description: "How would you address this weakness?"

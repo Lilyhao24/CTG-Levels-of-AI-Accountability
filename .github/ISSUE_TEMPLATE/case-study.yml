@@ -1,0 +1,32 @@
+name: "\U0001F4CA Case Study"
+description: "Apply CTG classification to a real AI system"
+labels: ["case-study"]
+body:
+  - type: input
+    id: system
+    attributes:
+      label: "AI System"
+      description: "Which AI system are you classifying?"
+      placeholder: "e.g., OpenAI GPT-4 API, Tesla Autopilot, Ant Group credit scoring"
+    validations:
+      required: true
+  - type: input
+    id: rating
+    attributes:
+      label: "CTG Rating"
+      description: "Your proposed classification"
+      placeholder: "[C?, T?, G?]"
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: "Justification"
+      description: "Why did you assign these levels? Reference the testable criteria from the whitepaper."
+    validations:
+      required: true
+  - type: textarea
+    id: difficulties
+    attributes:
+      label: "Difficulties / Ambiguities"
+      description: "What was hard to classify? Where were the definitions unclear?"
