@@ -122,7 +122,7 @@ G0─G3 作为治理管辖层叠加在能力平面之上
 ```
 CTG Model: AI State-Continuity, Traceability & Governance Framework. 
 Version 3.2 (Draft). March 2026.
-https://github.com/[your-username]/ctg-model
+https://github.com/Lilyhao24/CTG-Levels-of-AI-Accountability
 ```
 
 ---
